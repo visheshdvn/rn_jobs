@@ -22,8 +22,6 @@ const Popularjobs = () => {
     num_pages: 1,
   });
 
-  console.log("fetched data", data);
-
   // const handleCardPress =
 
   return (
