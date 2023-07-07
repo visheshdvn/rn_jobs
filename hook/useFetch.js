@@ -761,7 +761,94 @@ const useFetch = (endpoint, query) => {
             job_naics_name: "Custom Computer Programming Services",
           },
         ]);
-      } 
+      } else if (endpoint == "job-details") {
+        setData([
+          {
+            employer_name: "Mindpal",
+            employer_logo:
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKdbXDdBF2_8ZRV4qszl-0nJx1pneJLHoI9D9d&s=0",
+            employer_website: null,
+            employer_company_type: null,
+            job_publisher: "LinkedIn",
+            job_id: "EV02pCkgcY4AAAAAAAAAAA==",
+            job_employment_type: "FULLTIME",
+            job_title: "React Developer",
+            job_apply_link:
+              "https://www.linkedin.com/jobs/view/react-developer-at-mindpal-3656112725",
+            job_apply_is_direct: false,
+            job_apply_quality_score: 0.6065,
+            job_description:
+              "• We are looking for React Developers with experience ranging from junior to senior level.\n• Job Description\n• Creating and developing web applications using React and other front-end tools\n• Working with designers to translate graphical designs into visually appealing and intuitive user interfaces\n• Ensuring application performance and scalability through code optimization and problem-solving related to performance\n• Collaborating with the back-end team to integrate the front-end application with systems and databases\n• Testing and debugging applications to ensure reliability\n• Keeping up with the latest trends and tools in front-end development and improving skills to continuously enhance the quality of created applications\n• Collaborating with the project team and management to understand business requirements and adjust work to company goals\n• Requirements\n• Minimum 2 years of experience working with React\n• Very good programming skills in JavaScript and TypeScript\n• Knowledge of software architecture, design patterns, and software development according to best practices\n• Communicative knowledge of English language\n• Additional advantage will be knowledge of other technologies\n• We Offer\n• B2B contract type\n• Full-time employment\n• Remote and flexible working hours\n\nRequirements\n\nResponsibilities",
+            job_is_remote: false,
+            job_posted_at_timestamp: 1688564550,
+            job_posted_at_datetime_utc: "2023-07-05T13:42:30.000Z",
+            job_city: "Wichita",
+            job_state: "KS",
+            job_country: "US",
+            job_latitude: 37.687176,
+            job_longitude: -97.330055,
+            job_benefits: null,
+            job_google_link:
+              "https://www.google.com/search?gl=us&hl=en&q=EV02pCkgcY4AAAAAAAAAAA%3D%3D&cs=1&ibp=htl;jobs#fpstate=tldetail&htivrt=jobs&htiq=EV02pCkgcY4AAAAAAAAAAA%3D%3D&htidocid=EV02pCkgcY4AAAAAAAAAAA%3D%3D",
+            job_offer_expiration_datetime_utc: "2023-08-04T13:42:30.000Z",
+            job_offer_expiration_timestamp: 1691156550,
+            job_required_experience: {
+              no_experience_required: false,
+              required_experience_in_months: null,
+              experience_mentioned: true,
+              experience_preferred: false,
+            },
+            job_required_skills: null,
+            job_required_education: {
+              postgraduate_degree: false,
+              professional_certification: false,
+              high_school: false,
+              associates_degree: false,
+              bachelors_degree: true,
+              degree_mentioned: false,
+              degree_preferred: false,
+              professional_certification_mentioned: false,
+            },
+            job_experience_in_place_of_education: false,
+            job_min_salary: null,
+            job_max_salary: null,
+            job_salary_currency: null,
+            job_salary_period: null,
+            job_highlights: {
+              Qualifications: [
+                "Minimum 2 years of experience working with React",
+                "Very good programming skills in JavaScript and TypeScript",
+                "Knowledge of software architecture, design patterns, and software development according to best practices",
+                "Communicative knowledge of English language",
+              ],
+              Responsibilities: [
+                "Creating and developing web applications using React and other front-end tools",
+                "Working with designers to translate graphical designs into visually appealing and intuitive user interfaces",
+                "Ensuring application performance and scalability through code optimization and problem-solving related to performance",
+                "Collaborating with the back-end team to integrate the front-end application with systems and databases",
+                "Testing and debugging applications to ensure reliability",
+                "Keeping up with the latest trends and tools in front-end development and improving skills to continuously enhance the quality of created applications",
+                "Collaborating with the project team and management to understand business requirements and adjust work to company goals",
+              ],
+              Benefits: ["Remote and flexible working hours"],
+            },
+            job_job_title: null,
+            job_posting_language: "en",
+            job_onet_soc: "15113400",
+            job_onet_job_zone: "3",
+            estimated_salaries: [],
+            apply_options: [
+              {
+                publisher: "Talent.com",
+                apply_link:
+                  "https://www.talent.com/view?id=6de119ddf867&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                is_direct: false,
+              },
+            ],
+            employer_reviews: [],
+          },
+        ]);
+      }
       setIsLoading(false);
     } catch (error) {
       setError(error);
